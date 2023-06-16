@@ -26,10 +26,13 @@ header {
 header h1 {
     color: blueviolet;
     font-size: 2.5rem;
+    font-family: 'Roboto';
+    margin: 10px;
 }
 
 header span {
     color: white;
+    padding-left: px;
 }
 
 header .navegacao-primaria {
@@ -42,6 +45,7 @@ header .navegacao-primaria li a {
     padding: 10px;
     color: white;
     font-size: 1.3rem;
+    font-family: 'Roboto';
 }
 
 .section-div {
@@ -88,10 +92,9 @@ header .navegacao-primaria li a {
 .section-div img {
     height: 500px;
     border-radius: 10%;
-    padding-left: 40%;
-    transition: 2s all ease-in-out;
+    padding-left: 10%;
 
-    overflow: hidden;
+    transition: 10ms all ease-in;
 }
 
 .section-div img:hover {
@@ -244,6 +247,24 @@ main .sobre {
     font-size: 1.5rem;
 }
 
+.linguagens li{
+    color: #f7f7f7;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 10px;
+}
+
+.social-media li{
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+a{
+    color: #f7f7f7;
+}
+
 .sobre_info p {
     font-size: .9rem;
 }
@@ -269,3 +290,5 @@ main .sobre {
         transform: translate3d(0, 0, 0);
     }
 }
+
+
